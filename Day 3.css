@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Montserrat:wght@400;600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 100vh;
+    background-color: #7D9D9C;
+    /* background: url(https://images.unsplash.com/photo-1559827291-72ee739d0d9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80); */
+}
+
+p {
+    color: #FFC18E;
+    display: flex;
+}
+
+h1 {
+    color: #FF9F29;
+}
+
+.container.one {
+
+    background: url(https://cdn.shopify.com/s/files/1/0259/8476/1927/products/BC312.a_S65SRAJWXG4R_grande.jpg?v=1573349987) -10px 0;
+    margin: 45px;
+    height: 460px;
+    image-resolution: 150%;
+    width: 240px;
+    border-radius: 7px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: flex 0.4s ease-in;
+    flex: 0.8;
+}
+
+
+.container.one:hover {
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cf1f50f9-ee0c-4358-aa18-9f159c5fb48d/d64uofc-b7c3927e-3a50-45e5-8e43-d3a9b2b9552d.jpg/v1/fill/w_600,h_849,q_75,strp/sasuku_by_therafaarts_d64uofc-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODQ5IiwicGF0aCI6IlwvZlwvY2YxZjUwZjktZWUwYy00MzU4LWFhMTgtOWYxNTljNWZiNDhkXC9kNjR1b2ZjLWI3YzM5MjdlLTNhNTAtNDVlNS04ZTQzLWQzYTliMmI5NTUyZC5qcGciLCJ3aWR0aCI6Ijw9NjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.zYF8Oy2FdTh5gL21kRihEoPYPIzBkHRyzryDFvu7fmU) -100px -100px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    flex-direction: column;
+    flex: 1;
+}
+
+.container.two {
+    background: url(https://th.bing.com/th/id/OIP.Kqm2UcVAN2lbiqOg66Wd2AHaHa?w=0&h=700&c=7&r=&o=0&dpr=2&pid=1.2);
+    margin: 45px;
+    height: 460px;
+    width: 240px;
+    border-radius: 7px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: flex 0.4s ease-in;
+    flex: 0.8;
+}
+
+.container.two:hover {
+    background: url(https://wallpapers.com/images/high/white-wolf-in-forest-auxt5cbuy2rebacg.jpg);
+    background-position: -130px -40px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    flex-direction: column;
+    flex: 1;
+    background-image: ;
+}
+
+.container.three {
+    background: no-repeat url(solar.jpg);
+    background-position: -350px -2px;
+    margin: 45px;
+    height: 460px;
+    width: 240px;
+    border-radius: 7px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: flex 0.4s ease-in;
+    flex: 0.8;
+}
+
+.container.three:hover {
+    background: url(https://th.bing.com/th/id/OIP.Ns9ECO_mJt_l6XNhRvHipAHaJ5?pid=ImgDet&w=1080.6484375&h=950&c=5&dpr=1.12) 10px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    flex-direction: column;
+    flex: 1;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    margin: 4px 2px;
+    display: inline-block;
+    text-align: center;
+    border-color: coral;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+}
+
+
+.btn1:hover,
+.btn2:hover,
+.btn3:hover {
+    background-color: #1F4690;
+    color: white;
+    size: 97%;
+    cursor: pointer;
+}
+
+.btn1:active,
+.btn2:active,
+.btn3:active {
+    transform: translateY(4px);
+}
